@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  margin-top: -300px;
+}
+
+#mTitle {
+  margin-top: -15px;
+}
+
+.logo {
+  height: 3em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 0.5em;
+  margin-top: -25px;
+}
+
+.read-the-docs {
+  color: #888;
+  margin: -10px;
+}
+
+#mBtn {
+  background-color: green;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+p {
+  margin-left: 250px;
+}
+
+ul {
+  /* <li>로 출력된 목록의 글자와 각 항목 좌측의 점(dot)이 벌어졌을 때 붙이는 속성 */
+  list-style-position: inside;
+}
