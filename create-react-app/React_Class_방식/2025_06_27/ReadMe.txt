@@ -1,2 +1,0 @@
--. creat-reac-app을 통해 개발한 소스
--. React를 Class 방식으로 개발한 소스
